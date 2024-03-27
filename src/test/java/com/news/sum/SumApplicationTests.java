@@ -1,10 +1,10 @@
-package com.project.news;
+package com.news.sum;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class NewsApplicationTests {
+class SumApplicationTests {
 
 	@Test
 	void contextLoads() {

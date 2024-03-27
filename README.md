@@ -1,2 +1,0 @@
-# newsSummary
- 

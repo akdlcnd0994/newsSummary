@@ -1,13 +1,13 @@
-package com.project.news;
+package com.news.sum;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class NewsApplication {
+public class SumApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(NewsApplication.class, args);
+		SpringApplication.run(SumApplication.class, args);
 	}
 
 }
