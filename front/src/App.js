@@ -1,12 +1,12 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import News from "./routes/news"
+import Home from "./routes/Home"
 
 function App() {
   return (
     <Router>
       <Switch>
         <Route path="/">
-          <News />
+          <Home />
         </Route>
       </Switch>
     </Router>

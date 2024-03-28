@@ -17,6 +17,10 @@ public class NewsController {
 
     @GetMapping("/news/{idx}")
     public List<News> newsReader(@PathVariable int idx){
+        if(idx==10){
+            //7~18
+            return nr.findByidxBetween(7,18);
+        }
         return nr.findByidx(idx);
     }
 }

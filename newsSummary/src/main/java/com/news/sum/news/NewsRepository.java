@@ -8,5 +8,5 @@ import java.util.List;
 @Repository
 public interface NewsRepository extends JpaRepository<News, Long> {
     List<News> findByidx(int idx);
-
+    List<News> findByidxBetween(long startId, long endId);
 }
