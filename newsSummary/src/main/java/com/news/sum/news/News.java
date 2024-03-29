@@ -13,20 +13,27 @@ public class News {
     String title;
     String content;
     String img;
-    @Id
-    String link;
 
-    protected News(){
-
-    }
-
-    public News(int idx, String title, String content, String img, String link) {
+    public News(int idx, String title, String content, String img, String link, String company, String icon) {
         this.idx = idx;
         this.title = title;
         this.content = content;
         this.img = img;
         this.link = link;
+        this.company = company;
+        this.icon = icon;
     }
+
+    @Id
+    String link;
+    String company;
+    String icon;
+
+    protected News(){
+
+    }
+
+
 
 
 }

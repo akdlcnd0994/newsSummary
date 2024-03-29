@@ -3,14 +3,16 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function News({ title, content, img, link}) {
+function CompanyNews({ title, content, img, link}) {
   const onClick = () =>{
     console.log("ok")
     window.open(link, '_blank')
   }
   return (
     <Card style={{ width: '20rem', height :'35rem' }}>
-      <Card.Img variant="top" src={img} />
+        <center>
+      <Card.Img variant="top" style={{height:"130px", width: "130px"}} src={img} />
+      </center>
       <Card.Body>
         <Card.Title style={{fontWeight : "bold"}}>{title}</Card.Title>
         <Card.Text>
@@ -24,11 +26,11 @@ function News({ title, content, img, link}) {
   );
 }
 
-News.propTypes = {
+CompanyNews.propTypes = {
   title: propTypes.string.isRequired,
   content: propTypes.string.isRequired,
   img: propTypes.string.isRequired,
   link: propTypes.string.isRequired,
 };
 
-export default News;
+export default CompanyNews;
