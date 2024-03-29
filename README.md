@@ -9,5 +9,7 @@
 
 
 #### 스크린샷
-![image](https://github.com/akdlcnd0994/newsSummary/assets/28687142/7d76745f-3046-43b4-8905-eec72f1fbbe7)
+![image](https://github.com/akdlcnd0994/newsSummary/assets/28687142/61f6d00d-c6b6-4180-9593-311465ee2118)
+
+![image](https://github.com/akdlcnd0994/newsSummary/assets/28687142/5f893bda-76ed-42df-b5b5-32f55e7ebe4e)
 
