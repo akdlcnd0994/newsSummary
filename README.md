@@ -9,7 +9,7 @@
 
 
 ### 스크린샷
-</br>
+
 #### 경제
 ![image](https://github.com/akdlcnd0994/newsSummary/assets/28687142/61f6d00d-c6b6-4180-9593-311465ee2118)
 </br>
