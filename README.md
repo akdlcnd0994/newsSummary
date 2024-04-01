@@ -8,8 +8,10 @@ https://akdlcnd0994.github.io/newsSummary/
 2. 해당 데이터는 React로 작성된 Front에서 rest api를 이용해 Spring boot 웹 서버로 idx값을 포함하여 전송한다.
 3. 웹 서버는 python에서 얻은 정보를 DB에 검색하고 해당 데이터를 Front로 재 전송해준다.
 4. Front에서 데이터를 정렬하여 보여준다.
-<br/>
 
+- front는 github pages를 이용하여 배포, web서버는 AWS EC2를 이용해 배포하였다.
+- github pages는 https, EC2는 http이므로 EC2로 배포된 Spring boot 서버에 https를 적용시켰다.
+<br/>
 
 ### 스크린샷
 
