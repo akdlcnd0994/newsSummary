@@ -1,5 +1,5 @@
 {
-  "name": "react",
+  "name": "newsSummary",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.6.8",
     "bootstrap": "^5.3.3",
+    "gh-pages": "^6.1.1",
     "github-pages": "^3.0.2",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
@@ -43,8 +44,5 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://akdlcnd0994.github.io/newsSummary",
-  "devDependencies": {
-    "gh-pages": "^6.1.1"
-  }
+  "homepage": "https://akdlcnd0994.github.io/newsSummary"
 }
