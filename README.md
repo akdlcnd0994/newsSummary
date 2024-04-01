@@ -1,5 +1,8 @@
 # newsSummary
 
+#### 프로젝트 링크
+https://akdlcnd0994.github.io/newsSummary/
+
 #### 프로젝트 설명
 1. 우선 python beautifulSoup 파싱과 KoBart를 이용한 파싱을 기반으로 DB에 데이터를 갱신한다.
 2. 해당 데이터는 React로 작성된 Front에서 rest api를 이용해 Spring boot 웹 서버로 idx값을 포함하여 전송한다.
