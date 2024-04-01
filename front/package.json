@@ -43,5 +43,8 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://akdlcnd0994.github.io/newsSummary"
+  "homepage": "https://akdlcnd0994.github.io/newsSummary",
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
 }
