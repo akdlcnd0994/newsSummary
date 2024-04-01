@@ -14,6 +14,7 @@ public class NewsController {
     @Autowired
     NewsRepository nr;
 
+    @CrossOrigin(origins = "https://akdlcnd0994.github.io/newsSummary/")
     @GetMapping("/news/{idx}")
     public List<News> newsReader(@PathVariable int idx){
         if(idx==10){
