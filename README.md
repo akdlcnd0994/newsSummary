@@ -4,7 +4,7 @@
 https://akdlcnd0994.github.io/newsSummary/
 
 #### Web 서버 링크
-https://news.woosik.site/news/{0~7 || 10}
+**https**://news.woosik.site/news/{0~7 || 10}
 <br/>
 ex) https://news.woosik.site/news/1
 
