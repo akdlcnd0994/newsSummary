@@ -10,6 +10,8 @@ ex) https://news.woosik.site/news/1
 
 
 #### 프로젝트 설명
+뉴스를 파싱하고 나온 데이터를 koBART알고리즘을 통해 요약하며 웹 서버를 거쳐 Front에 표시해주는 프로젝트
+
 1. 우선 python beautifulSoup 파싱과 KoBart를 이용한 파싱을 기반으로 DB에 데이터를 갱신한다.
 2. 해당 데이터는 React로 작성된 Front에서 rest api를 이용해 Spring boot 웹 서버로 idx값을 포함하여 전송한다.
 3. 웹 서버는 python에서 얻은 정보를 DB에 검색하고 해당 데이터를 Front로 재 전송해준다.
@@ -26,7 +28,6 @@ ex) https://news.woosik.site/news/1
 - Python(IDLE)
 - http->https(nginx, letsEncrypt)
 
-<br/>
 ### 스크린샷
 
 #### 경제
