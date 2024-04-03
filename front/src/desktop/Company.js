@@ -29,13 +29,13 @@ function Company({ temp }) {
         ) => (
           <div style={{marginLeft : '5rem', marginBottom:'3rem' ,width: '110rem', height:'47rem' ,border: '4px dashed #bcbcbc',  boxshadow : '5px 5px 5px 5px gray'}}>
             <center>
-              <img style={{marginTop:'1rem'}} src={n[0].icon}  />
+              <img style={{marginTop:'1rem', height:120, width:120}} src={n[0].icon}  />
               <h2>{n[0].company}</h2>
             </center>
             {n.map((info, index) =>
               index % 5 == 0 ? (
                 <Container>
-                  <Row md={5} style={{ width: "110rem", height: "40rem", marginLeft:'-14rem'}}>
+                  <Row md={5} style={{ width: "110rem", height: "42rem", marginLeft:'-14rem'}}>
                     <Col xs>
                       <News
                         title={n[index].title}

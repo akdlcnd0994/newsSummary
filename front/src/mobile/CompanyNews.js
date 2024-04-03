@@ -9,13 +9,13 @@ function CompanyNews({ title, content, img, link}) {
     window.open(link, '_blank')
   }
   return (
-    <Card style={{ width: '20rem', height :'35rem' }}>
-        <center>
-      <Card.Img variant="top" style={{height:"130px", width: "130px"}} src={img} />
+    <Card style={{ width: '100%', paddingBottom:'20%' , display: "flex", justifyContent: "space-around", alignItems: "center", display:"block" }}>
+      <center>
+      <Card.Img variant="top" src={img} style={{width:'60%', height: "auto", margin: "2%", padding:"20px"}}/>
       </center>
       <Card.Body>
         <Card.Title style={{fontWeight : "bold"}}>{title}</Card.Title>
-        <Card.Text>
+        <Card.Text style={{padding:"20px 20px 10px 20px", textAlign: "justify"}}>
         {content.length > 167
               ? `${content.slice(0, 167)}...`
               : content}
