@@ -35,7 +35,7 @@ ex) https://news.woosik.site/news/1
 
 </br>
 </br>
-</br>
+
 #### 언론사별
 ![image](https://github.com/akdlcnd0994/newsSummary/assets/28687142/7f5f30e1-a906-4618-b840-161de75c5cda)
 
