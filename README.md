@@ -31,10 +31,17 @@ ex) https://news.woosik.site/news/1
 ### 스크린샷
 
 #### 경제
-![image](https://github.com/akdlcnd0994/newsSummary/assets/28687142/61f6d00d-c6b6-4180-9593-311465ee2118)
+![image](https://github.com/akdlcnd0994/newsSummary/assets/28687142/9a883d55-ed89-40bf-aacb-d0fc13b20d87)
+
 </br>
 </br>
 </br>
 #### 언론사별
-![image](https://github.com/akdlcnd0994/newsSummary/assets/28687142/5f893bda-76ed-42df-b5b5-32f55e7ebe4e)
+![image](https://github.com/akdlcnd0994/newsSummary/assets/28687142/7f5f30e1-a906-4618-b840-161de75c5cda)
+
+#### 모바일
+![image](https://github.com/akdlcnd0994/newsSummary/assets/28687142/b9275f0d-9bef-44d0-bdc0-fe762571f002)
+![image](https://github.com/akdlcnd0994/newsSummary/assets/28687142/f4bb3049-22e4-4901-9f67-53d0bf44079f)
+
+
 
