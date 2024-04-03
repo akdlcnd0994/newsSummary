@@ -40,8 +40,10 @@ ex) https://news.woosik.site/news/1
 ![image](https://github.com/akdlcnd0994/newsSummary/assets/28687142/7f5f30e1-a906-4618-b840-161de75c5cda)
 
 #### 모바일
-![image](https://github.com/akdlcnd0994/newsSummary/assets/28687142/b9275f0d-9bef-44d0-bdc0-fe762571f002)
-![image](https://github.com/akdlcnd0994/newsSummary/assets/28687142/f4bb3049-22e4-4901-9f67-53d0bf44079f)
+![image](https://github.com/akdlcnd0994/newsSummary/assets/28687142/5eee1a22-70b5-47a9-a534-1998f3083d62)
+
+![image](https://github.com/akdlcnd0994/newsSummary/assets/28687142/9fa8a398-6efa-4b72-977e-c34be19628c4)
+
 
 
 
