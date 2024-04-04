@@ -37,8 +37,13 @@ function Home() {
       .catch((err) => console.log(err));
   };
 
+  const goToTop = () => {
+    window.scrollTo({top:0, behavior:"smooth"});
+  }
+
   const onClick = (idx) => {
     setLoading(true);
+    goToTop();
     setIdx(idx);
     if (idx === 6) {
       enterNews();
@@ -115,9 +120,7 @@ function Home() {
         </div>
       ) : (
         <div>
-          <Company
-            temp={news}
-          />
+          <Company />
         </div>
       )}
     </div>

@@ -4,9 +4,23 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "bootstrap/dist/css/bootstrap.min.css";
 import News from "./CompanyNews";
+import { useEffect, useState } from "react";
+import { apiClient } from "../apis/ApiClient";
 
 
-function Company({ temp }) {
+function Company() {
+  const [temp, setTemp] = useState([]);
+  const rankNews = () => {
+    apiClient
+      .get("/news/10")
+      .then((res) => setTemp(res.data))
+      .catch((err) => console.log(err));
+  };
+
+  useEffect(()=>{
+    rankNews();
+  },[])
+
   let set = [];
   let t = [];
 
